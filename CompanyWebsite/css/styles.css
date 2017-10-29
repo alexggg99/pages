@@ -1,0 +1,8 @@
+body {
+    background: url(https://static.pexels.com/photos/163872/italy-cala-gonone-air-sky-163872.jpeg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    color: #ffffff;
+}
