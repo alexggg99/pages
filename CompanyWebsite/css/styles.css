@@ -34,3 +34,10 @@ body {
     border-bottom: 1px solid whitesmoke;
     padding-bottom: 2px;
 }
+
+@media (max-width: 768px) {
+    .nav li:hover {
+        border: none;
+        padding: 4px 0;
+    }
+}
