@@ -1,9 +1,16 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
+    /* Margin bottom by footer height */
+    margin-bottom: 210px;
     background: url(https://static.pexels.com/photos/216372/pexels-photo-216372.jpeg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Indie Flower', cursive;
-    font-size: 36px;
+    font-size: 30px;
     color: #ffffff;
 }
 
@@ -59,10 +66,56 @@ body {
     height: 100px;
 }
 
+@media (max-width: 768px) {
+    .bodyimage {
+        height: 70px;
+    }
+}
+
 .col-md-4 {
     text-align: center;
 }
 
 .icons p {
     font-size: 35px;
+}
+
+.contact {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.contact-btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: whitesmoke;
+    background-color: rgba(125, 130, 156, 0.5);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 70px;
+}
+
+.contact-btn:hover {
+    color:whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-btn:visited {
+    color:whitesmoke;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-top: 8px;
 }
