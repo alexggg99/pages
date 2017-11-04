@@ -1,5 +1,5 @@
 body {
-    background: url(https://static.pexels.com/photos/163872/italy-cala-gonone-air-sky-163872.jpeg) no-repeat center center;
+    background: url(https://static.pexels.com/photos/216372/pexels-photo-216372.jpeg) no-repeat center center;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Indie Flower', cursive;
@@ -40,4 +40,29 @@ body {
         border: none;
         padding: 4px 0;
     }
+}
+
+.jumbotron {
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.icons {
+    margin-top: 25px;
+}
+
+.bodyimage {
+    height: 100px;
+}
+
+.col-md-4 {
+    text-align: center;
+}
+
+.icons p {
+    font-size: 35px;
 }
