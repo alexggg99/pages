@@ -3,6 +3,34 @@ body {
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Indie Flower', cursive;
-    font-size: 32px;
+    font-size: 36px;
     color: #ffffff;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.nav li {
+    color: whitesmoke;
+    font-size: 36px;
+    margin-right: 35px;
+    padding: 4px 0;
+}
+
+.nav li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid whitesmoke;
+    padding-bottom: 2px;
 }
