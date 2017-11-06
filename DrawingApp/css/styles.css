@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    background: url(../img/whiteboard.jpg) center center fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#header {
+    font-size: 3em;
+    color: #555555;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+.inputContainer {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#sliderContainer {
+    margin-top: 8px;
+}
+
+#sliderContainer .ui-state-default {
+    border: 1px solid #aaaaaa; background: #555555;
+}
+
+.input {
+    height: 30px;
+    padding-bottom: 15px;
+    font-size: 1.3em;
+}
+
+#circle {
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -opera-transform: translate(-50%, -50%);
+}
+
+#thicknessInput {
+    position: relative;
+}
+
+#container {
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgba(70, 81, 95, 0.6);
+    margin: 10px auto;
+    background-color: rgba(70, 81, 95, 0.6);
+}
+
+.buttonContainer {
+    width: 399px;
+    margin: 5px auto;
+}
+
+.buttonInput {
+    float: left;
+    width: 133px;
+    color: #555555;
+    font-size: 35px;
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 4px 8px;
+    position: relative;
+}
+
+.button:hover {
+    color: #626468;
+}
+
+.button:active {
+    top: 4px;
+}
