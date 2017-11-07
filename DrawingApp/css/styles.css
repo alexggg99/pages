@@ -58,7 +58,11 @@ body {
     height: 500px;
     border: 1px solid rgba(70, 81, 95, 0.6);
     margin: 10px auto;
-    background-color: rgba(70, 81, 95, 0.6);
+    background-color: white;
+}
+
+#paint {
+    cursor: crosshair;
 }
 
 .buttonContainer {
@@ -87,4 +91,9 @@ body {
 
 .button:active {
     top: 4px;
+}
+
+.eraseMode {
+    background-color: #555555;
+    color: whitesmoke;
 }
